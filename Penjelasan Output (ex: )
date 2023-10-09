@@ -1,0 +1,101 @@
+Produk Teddy Bear berhasil ditambahkan.
+Produk Robot berhasil ditambahkan.
+Produk Puzzle berhasil ditambahkan.
+Produk Lego berhasil ditambahkan.
+Produk Boneka Barbie berhasil ditambahkan.
+Produk Catur berhasil ditambahkan.
+
+Menu Utama:
+1. Masuk sebagai Admin
+2. Masuk sebagai Pembeli
+3. Keluar
+Pilih peran Anda (1/2/3): 1
+
+Menu Admin:
+1. Tambah Produk
+2. Lihat Produk
+3. Perbarui Produk
+4. Hapus Produk
+5. Kembali ke Menu Utama
+Pilih tindakan Admin (1/2/3/4/5): 1
+Masukkan nama produk: Mobil-mobilan
+Masukkan harga produk: 10.000
+Produk Mobil-mobilan berhasil ditambahkan.
+
+Menu Admin:
+1. Tambah Produk
+2. Lihat Produk
+3. Perbarui Produk
+4. Hapus Produk
+5. Kembali ke Menu Utama
+Pilih tindakan Admin (1/2/3/4/5): 2
++----+---------------+----------+
+| No |  Nama Produk  |  Harga   |
++----+---------------+----------+
+| 1  |   Teddy Bear  | Rp 60000 |
+| 2  |     Robot     | Rp 50000 |
+| 3  |     Puzzle    | Rp 15000 |
+| 4  |      Lego     | Rp 20000 |
+| 5  | Boneka Barbie | Rp 80000 |
+| 6  |     Catur     | Rp 25000 |
+| 7  | Mobil-mobilan | Rp 10.0  |
++----+---------------+----------+
+
+# penjelasan 
+# admin login, untuk menambahkan produk, nama, dan harga. barang otomatis terupdate.
+
+
+
+Menu Utama:
+1. Masuk sebagai Admin
+2. Masuk sebagai Pembeli
+3. Keluar
+Pilih peran Anda (1/2/3): 2
+\Menu Pembeli:
+1. Tambahkan Produk ke Keranjang
+2. Lihat Keranjang
+3. Checkout
+4. Kembali ke Menu Utama
+Pilih tindakan Pembeli (1/2/3/4): 1
++----+---------------+----------+
+| No |  Nama Produk  |  Harga   |
++----+---------------+----------+
+| 1  |   Teddy Bear  | Rp 60000 |
+| 2  |     Robot     | Rp 50000 |
+| 3  |     Puzzle    | Rp 15000 |
+| 4  |      Lego     | Rp 20000 |
+| 5  | Boneka Barbie | Rp 80000 |
+| 6  |     Catur     | Rp 25000 |
+| 7  | Mobil-mobilan | Rp 10.0  |
++----+---------------+----------+
+Masukkan indeks produk yang ingin Anda beli: 5
+Produk Boneka Barbie ditambahkan ke keranjang.
+\Menu Pembeli:
+1. Tambahkan Produk ke Keranjang
+2. Lihat Keranjang
+3. Checkout
+4. Kembali ke Menu Utama
+Pilih tindakan Pembeli (1/2/3/4): 2
++----+---------------+----------+
+| No |  Nama Produk  |  Harga   |
++----+---------------+----------+
+| 1  | Boneka Barbie | Rp 80000 |
++----+---------------+----------+
+\Menu Pembeli:
+1. Tambahkan Produk ke Keranjang
+2. Lihat Keranjang
+3. Checkout
+4. Kembali ke Menu Utama
+Pilih tindakan Pembeli (1/2/3/4): 3
+Total harga: Rp 80000
+Masukkan jumlah uang yang dibayarkan: Rp 100000
+Uang kembalian: Rp 20000.0
+Keranjang dikosongkan. Terima kasih telah berbelanja!
+\Menu Pembeli:
+1. Tambahkan Produk ke Keranjang
+2. Lihat Keranjang
+3. Checkout
+4. Kembali ke Menu Utama
+Pilih tindakan Pembeli (1/2/3/4):
+
+# pembeli login, dan menambahkan produk ke keranjang, lalu melihat detail produk dan melakukan checkout dan transaksi tunai, dengan kembali Rp. 20000
