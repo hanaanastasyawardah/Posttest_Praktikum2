@@ -41,9 +41,15 @@ Pilih tindakan Admin (1/2/3/4/5): 2
 | 7  | Mobil-mobilan | Rp 10.0  |
 +----+---------------+----------+
 
-# penjelasan 
-# admin login, untuk menambahkan produk, nama, dan harga. barang otomatis terupdate.
-
+## Penjelasan output Admin 
+#Ada enam produk yang berhasil ditambahkan ke sistem dengan pesan konfirmasi untuk setiap produk.
+#Setelah itu, program menampilkan menu utama dengan tiga pilihan: Masuk sebagai Admin, Masuk sebagai Pembeli, atau Keluar.
+#Pengguna memilih untuk masuk sebagai Admin (pilihan 1).
+#Setelah masuk sebagai Admin, program menampilkan menu Admin yang memiliki lima tindakan: Tambah Produk, Lihat Produk, Perbarui Produk, Hapus Produk, dan Kembali ke Menu Utama.
+#Pengguna memilih untuk menambahkan produk (tindakan 1).
+#Pengguna diminta untuk memasukkan nama dan harga produk baru (Mobil-mobilan dengan harga Rp 10.000) dan program mengonfirmasi bahwa produk tersebut berhasil ditambahkan.
+#Pengguna kembali ke menu Admin dan memilih untuk melihat produk (tindakan 2).
+#Program menampilkan daftar produk yang sudah ada, termasuk produk baru "Mobil-mobilan" yang baru ditambahkan, dengan nomor, nama produk, dan harga.
 
 
 Menu Utama:
@@ -98,4 +104,10 @@ Keranjang dikosongkan. Terima kasih telah berbelanja!
 4. Kembali ke Menu Utama
 Pilih tindakan Pembeli (1/2/3/4):
 
-# pembeli login, dan menambahkan produk ke keranjang, lalu melihat detail produk dan melakukan checkout dan transaksi tunai, dengan kembali Rp. 20000
+## Penjelasan Output Pembeli 
+#Program memulai dengan menampilkan menu utama dengan tiga pilihan: Masuk sebagai Admin, Masuk sebagai Pembeli, atau Keluar. Pengguna memilih untuk masuk sebagai Pembeli (pilihan 2).
+#Setelah masuk sebagai Pembeli, program menampilkan menu Pembeli yang memiliki empat tindakan: Tambahkan Produk ke Keranjang, Lihat Keranjang, Checkout, dan Kembali ke Menu Utama.
+#Pengguna memilih untuk menambahkan produk ke keranjang (tindakan 1). Program menampilkan daftar produk yang tersedia dan meminta pengguna untuk memasukkan indeks produk yang ingin mereka beli. Pengguna memilih indeks 5 (Boneka Barbie) dan program mengonfirmasi bahwa produk tersebut telah ditambahkan ke keranjang.
+#Pengguna kembali ke menu Pembeli dan memilih untuk melihat keranjang (tindakan 2). Program menampilkan daftar produk yang telah ditambahkan ke keranjang.
+#Pengguna kembali ke menu Pembeli dan memilih untuk checkout (tindakan 3). Program menghitung total harga produk yang ada dalam keranjang (Rp 80.000) dan meminta pengguna untuk memasukkan jumlah uang yang dibayarkan (Rp 100.000). Setelah itu, program menghitung uang kembalian (Rp 20.000) dan mengonfirmasi bahwa keranjang telah dikosongkan setelah checkout selesai.
+#Pengguna kembali ke menu Pembeli dan diberi pilihan untuk melakukan tindakan selanjutnya.
